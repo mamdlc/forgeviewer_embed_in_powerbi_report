@@ -1,7 +1,7 @@
 module powerbi.visuals.plugins {
     export var forgePowerbiView4F623CD7FE44432EB2E71CF579A63B03_DEBUG = {
         name: 'forgePowerbiView4F623CD7FE44432EB2E71CF579A63B03_DEBUG',
-        displayName: 'forgePowerbiView',
+        displayName: 'BIM Viewer',
         class: 'PowerBI_ForgeViewer_Visual',
         version: '1.0.0',
         apiVersion: '2.5.0',

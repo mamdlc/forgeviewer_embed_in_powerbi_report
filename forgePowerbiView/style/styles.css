@@ -1,0 +1,22 @@
+/* Forge logo */
+#canvas-align {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 50px);
+    margin: auto;
+  }
+  #logo-overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: calc(100vh - 50px);
+    margin: auto;
+    z-index: 1;
+    pointer-events: none;
+  
+  }
+  #logo {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }

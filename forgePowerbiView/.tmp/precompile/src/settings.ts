@@ -27,22 +27,13 @@
 module powerbi.extensibility.visual.forgePowerbiView4F623CD7FE44432EB2E71CF579A63B03  {
     "use strict";
     import DataViewObjectsParser = powerbi.extensibility.utils.dataview.DataViewObjectsParser;
-
-    export class VisualSettings extends DataViewObjectsParser {
-      public dataPoint: dataPointSettings = new dataPointSettings();
-      }
-
-    export class dataPointSettings {
-     // Default color
-      public defaultColor: string = "";
-     // Show all
-      public showAllDataPoints: boolean = true;
-     // Fill
-      public fill: string = "";
-     // Color saturation
-      public fillRule: string = "";
-     // Text Size
-      public fontSize: number = 12;
+     export class credentials{
+       public project: string = "test";
+       public model: string = "test";
+       public update: boolean = false;
      }
+     export class VisualSettings extends DataViewObjectsParser {
+      public credentials: credentials = new credentials();
+      }
 
 }

@@ -13,10 +13,10 @@
             ],
             "program": "${workspaceFolder}/index.js",
             "env": {
-                "FORGE_CLIENT_ID":"",
-                "FORGE_CLIENT_SECRET":"",
+                "FORGE_CLIENT_ID":"CuwuKTAQPg0Vdy8MH6VjoSG2IMQC91qW",
+                "FORGE_CLIENT_SECRET":"e85fgp7TdlPFgh9l",
                 "FORGE_BUCKET_KEY":"xiaodong-old-svf-temporary-test",
-                "FORGE_MODEL_URN":"dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6eGlhb2Rvbmctb2xkLXN2Zi10ZW1wb3JhcnktdGVzdC9hZHZhbmNlZC5ydnQ"
+                "FORGE_MODEL_URN":"dXJuOmFkc2sud2lwcHJvZDpmcy5maWxlOnZmLmp2cUg2cDBUU3BPZzhpTTZjaHo1MUE_dmVyc2lvbj0x"
 
             }
         }

@@ -6,21 +6,47 @@
             "kind": "Grouping"
         },
         {
-            "displayName": "material",
-            "name": "material",
+            "displayName": "optional",
+            "name": "Optional",
             "kind": "Grouping"
         }
     ],
+    "objects": {
+        "credentials": {
+            "displayName": "IDOM Data",
+            "properties": {
+                "project": {
+                    "displayName": "Project Code",
+                    "description": "B360 Project Code",
+                    "type": {"text": true}
+                },
+                "model":{
+                    "displayName": "Model Code",
+                    "description": "B360 Model Code",
+                    "type": {"text": true}
+                },
+                "update":{
+                    "displayName": "Autoupdate model",
+                    "description": "Update model in the viewer",
+                    "type": {"bool": true}
+                }
+            }
+        }
+    },
     "dataViewMappings": [
         {
             "table": {
                 "rows": {
                     "for": {
                         "in": "dbid"
+                    },
+                    "dataReductionAlgorithm": {
+                        "top": {
+                            "count": 20000
+                        }
                     }
-                }
+                }             
             }
         }
-    ] 
-
+    ]
 }
