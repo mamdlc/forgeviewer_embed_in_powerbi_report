@@ -9,6 +9,16 @@
             "displayName": "optional",
             "name": "Optional",
             "kind": "Grouping"
+        },        
+        {
+            "displayName": "BIM 360 project",
+            "name": "B360project",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "BIM 360 model",
+            "name": "B360model",
+            "kind": "Grouping"
         }
     ],
     "objects": {
@@ -45,6 +55,7 @@
                             "count": 20000
                         }
                     }
+                    
                 }             
             }
         }
